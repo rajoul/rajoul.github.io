@@ -11,5 +11,5 @@ Other than that I hack vulnerable machines, mostly from [HackTheBox](http://hack
 
 * Twitter: [rajoul6](https://twitter.com/@rajoul6)
 * Github: [rajoul](https://github.com/rajoul)
-* Hack The Box profile : [mzfr](https://www.hackthebox.eu/home/users/profile/94847)
+* Hack The Box profile : [Bl0wfish](https://www.hackthebox.eu/home/users/profile/94847)
 
