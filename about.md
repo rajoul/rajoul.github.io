@@ -9,7 +9,7 @@ My name is RAJOUL Abdeljalil. I'm a Student at [`ENSIIE`](https://www.ensiie.fr/
 Other than that I hack vulnerable machines, mostly from [HackTheBox](http://hackthebox.eu/) or [Vulnhub](http://vulnhub.com/) and try to do writeups about them.
 
 
-* Twitter: [0xmzfr](https://twitter.com/@rajoul6)
-* Github: [mzfr](https://github.com/rajoul)
+* Twitter: [rajoul6](https://twitter.com/@rajoul6)
+* Github: [rajoul](https://github.com/rajoul)
 * Hack The Box profile : [mzfr](https://www.hackthebox.eu/home/users/profile/94847)
 
