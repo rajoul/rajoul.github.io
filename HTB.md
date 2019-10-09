@@ -14,7 +14,7 @@ Following is the list of all the boxes that I was able to root.
 * [writeup] 
 <!--
 * [Access] (https://mzfr.github.io/HackTheBox-writeups/Access/)
-* [Bastion](https://mzfr.github.io/HackTheBox-writeups/Bastion/)
+* [Bastion](https://mzfr.github.io/HackTheBox-writeups/Bastion/) 
 * [Carrier](https://mzfr.github.io/HackTheBox-writeups/Carrier/)
 * [Chaos](https://mzfr.github.io/HackTheBox-writeups/Chaos/)
 * [Frolic](https://mzfr.github.io/HackTheBox-writeups/Frolic/)
@@ -26,5 +26,6 @@ Following is the list of all the boxes that I was able to root.
 
 ***
 
-<script src="https://www.hackthebox.eu/badge/79568"></script>
->
+<!-- <script src="https://www.hackthebox.eu/badge/79568"></script> -->
+
+-->
