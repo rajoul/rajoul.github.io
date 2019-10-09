@@ -10,7 +10,6 @@ So after spending some time thinking on using some other theme and make it(blog)
 
 Also I am really not sure what content I'll be presenting so theme doesn't matter but I can promise you this, whatever content I'll be putting up here it won't be anything special :)
 
-Few Things I have in my minds for the blog are:
 
 
 
