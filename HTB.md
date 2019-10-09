@@ -24,7 +24,7 @@ Following is the list of all the boxes that I was able to root.
 * [Luke](https://mzfr.github.io/HackTheBox-writeups/Luke/)
 
 ***
-
+-->
 <!-- <script src="https://www.hackthebox.eu/badge/79568"></script> -->
 
--->
+
