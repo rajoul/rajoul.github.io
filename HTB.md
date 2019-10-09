@@ -11,8 +11,9 @@ I recently started trying machines on [HackTheBox](https://www.hackthebox.eu/)
 Following is the list of all the boxes that I was able to root.
 
 ## Index
-
-* [Access](https://mzfr.github.io/HackTheBox-writeups/Access/)
+* [writeup] 
+<!--
+* [Access] (https://mzfr.github.io/HackTheBox-writeups/Access/)
 * [Bastion](https://mzfr.github.io/HackTheBox-writeups/Bastion/)
 * [Carrier](https://mzfr.github.io/HackTheBox-writeups/Carrier/)
 * [Chaos](https://mzfr.github.io/HackTheBox-writeups/Chaos/)
@@ -22,7 +23,7 @@ Following is the list of all the boxes that I was able to root.
 * [Teacher](https://mzfr.github.io/HackTheBox-writeups/Teacher/)
 * [Friendzone](https://mzfr.github.io/HackTheBox-writeups/Friendzone/)
 * [Luke](https://mzfr.github.io/HackTheBox-writeups/Luke/)
-
+--!>
 ***
 
 <script src="https://www.hackthebox.eu/badge/79568"></script>
