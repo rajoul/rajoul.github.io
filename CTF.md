@@ -15,7 +15,7 @@ Source for all of my notes can be found [here](http://github.com/).
 * [Cybertalent](https://github.com/rajoul/cybertalent)
 * [Root-me](https://github.com/rajoul/root-me)
 * [Cryptopals](https://github.com/rajoul/cryptopals)
-* [OverThewire -> Natas](https://github.com/rajoul/rajoul.github.io/blob/master/natas.md)
+* [OverThewire -> Natas](https://rajoul.github.io/natas)
 * [OverThewire -> Bandit](https://github.com/rajoul/bandit/blob/master/README.md)
 
 
