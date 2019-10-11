@@ -14,3 +14,6 @@ Here's the list of all the VMs I've solved.
 * [Null byte](https://rajoul.github.io/my_write_up/Null_Byte)
 * brainpan
 * kioptrix_1
+* [Kioptrix_1](https://rajoul.github.io/my_write_up/basic_pentest_1)
+* [Kioptrix_2](https://rajoul.github.io/my_write_up/basic_pentest_1)
+* [Kioptrix_3](https://rajoul.github.io/my_write_up/basic_pentest_1)
