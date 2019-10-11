@@ -6,4 +6,4 @@ still waiting for free time to make it quickly
   <img src="https://rajoul.github.io/Image/Null_Byte/nullbyte.png" width="340" height="260">
 </p>
 hello there
-<img align="right" src="https://rajoul.github.io/Image/Null_Byte/get_root.png" width="340" height="260">
+<img align="left" src="https://rajoul.github.io/Image/Null_Byte/get_root.png">
