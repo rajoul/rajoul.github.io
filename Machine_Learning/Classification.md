@@ -85,9 +85,8 @@ X.head()
 Now our model is ready,we can compute score,accuracy.
 ```
 def compute_score(clf, X, y):
-    
-    xval = cross_val_score(clf, X, y, cv=10)
-    print("Accuracy: %0.2f (+/- %0.2f)" % (xval.mean(), xval.std() * 2))
+	xval = cross_val_score(clf, X, y, cv=10)
+	print("Accuracy: %0.2f (+/- %0.2f)" % (xval.mean(), xval.std() * 2))
     
 def score(model,X_train,X_test,y_train,y_test):
 	clf = model.fit(X_train, y_train)
@@ -109,12 +108,13 @@ y_pred=md.predire(model,X_test,y_test)
 y_pred
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="700" height="190">
+  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="720" height="170">
 </p>
 finally,we get score of our model,we can try an other algorithm looking for a best score and accuracy.
 # Random Forest:
 A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
-```model_rf=RandomForestClassifier()
+```
+model_rf=RandomForestClassifier()
 score_rf=md.score(model_rf,X_train, X_test, y_train, y_test)
 print("score == ",score_rf)
 md.compute_score(model_rf, X, y)
@@ -122,7 +122,7 @@ y_pred_rf=md.predire(model_rf,X_test,y_test)
 print("y_predict===",y_pred_rf)
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/random.png" width="700" height="190">
+  <img src="https://rajoul.github.io/Machine_Learning/image/random.png" width="780" height="90">
 </p>
 # Grid Search Random Forest
 Another way to choose which hyperparameters to adjust is by conducting an exhaustive grid search or randomized search
