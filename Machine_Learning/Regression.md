@@ -3,5 +3,5 @@
 WAITING.....................................
 ```
 <p align="center">
-  ![](https://rajoul.github.io/Machine_Learning/scan_for_vuln.gif)
+  <img src="https://rajoul.github.io/Machine_Learning/scan_for_vuln.gif"  width="400" height="120")
 </p>
