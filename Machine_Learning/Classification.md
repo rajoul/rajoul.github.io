@@ -26,7 +26,7 @@ train = pd.read_csv("data/train.csv", sep=',')
 train.head()
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/head.png" width="400" height="300">
+  <img src="https://rajoul.github.io/Machine_Learning/image/head.png" width="800" height="280">
 </p>
 I clean my dataset from NAN value and replace undesired characters
 ```
@@ -58,7 +58,7 @@ prepro.replace_all_nan(train,nan)
 train.head()
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/clean.png" width="400" height="300">
+  <img src="https://rajoul.github.io/Machine_Learning/image/clean.png" width="800" height="280">
 </p>
 after cleaning process,dummifying is coming
 ```
@@ -80,11 +80,36 @@ X=dumify(X,to_dummify)
 X.head()
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/dummify.png" width="400" height="300">
+  <img src="https://rajoul.github.io/Machine_Learning/image/dummify.png" width="800" height="300">
 </p>
+```
+def compute_score(clf, X, y):
+    
+    xval = cross_val_score(clf, X, y, cv=10)
+    print("Accuracy: %0.2f (+/- %0.2f)" % (xval.mean(), xval.std() * 2))
+    
+def score(model,X_train,X_test,y_train,y_test):
+	clf = model.fit(X_train, y_train)
+	score = clf.score(X_test, y_test)
+	return score
 
-
-
+def predire(model,X_test,y_test):
+	y_pred=model.predict(X_test)
+	return y_pred
+print("###################################")
+print("### Regression Logistic.... #######")
+print("###################################")
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.05, random_state=0)
+model=LogisticRegression()
+score=md.score(model,X_train, X_test, y_train, y_test)
+print("score == ",score)
+md.compute_score(model, X, y)
+y_pred=md.predire(model,X_test,y_test)
+y_pred
+```
+<p align="center">
+  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="800" height="300">
+</p>
 
 
 
