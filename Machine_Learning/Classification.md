@@ -20,3 +20,11 @@ import my_package.models.models as md
 import my_package.preprocessing_data.preprocessing as prepro
 import my_package.preprocessing_data.discovery as ds
 ```
+I load titanic dataset
+```
+train = pd.read_csv("data/train.csv", sep=',')
+train.head()
+```
+<p align="center">
+  <img src="https://rajoul.github.io/Machine_Learning/image/head.png" width="400" height="300">
+</p>
