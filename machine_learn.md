@@ -8,8 +8,8 @@ There some variations of how to define the types of Machine Learning Algorithms 
 according to their purpose and the main categories are the following:
 # 1-Supervised learning 
 * [Classification](https://rajoul.github.io/Machine_Learning/Classification)
-* [Regression](https://rajoul.github.io/my_write_up/Kioptrix_2)
-* [Spark](https://rajoul.github.io/my_write_up/Kioptrix_3)
+* [Regression](https://rajoul.github.io/Machine_Learning/Regression)
+* [Spark](https://rajoul.github.io/Machine_Learning/Spark)
 
 # 2-Unsupervised Learning
 
