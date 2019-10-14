@@ -108,7 +108,7 @@ y_pred=md.predire(model,X_test,y_test)
 y_pred
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="720" height="170">
+  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="720" height="140">
 </p>
 finally,we get score of our model,we can try an other algorithm looking for a best score and accuracy.
 # Random Forest:
@@ -156,7 +156,9 @@ md.compute_score(model_rf, X, y)
 <p align="center">
   <img src="https://rajoul.github.io/Machine_Learning/image/grid.png" width="680" height="80">
 </p>
-
+thanks for Reading.........
+* for more information about [Regression](https://rajoul.github.io/Machine_Learning/Regression)
+thanks for supporting me on [Twitter](https://twitter.com/rajoul6).
 
 
 
