@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-permalink: /Machine-learn
+permalink: /machine-learn
 ---
 
 ## Projets Machine Learning
