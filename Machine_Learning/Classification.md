@@ -58,7 +58,7 @@ prepro.replace_all_nan(train,nan)
 train.head()
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/clean.png" width="800" height="280">
+  <img src="https://rajoul.github.io/Machine_Learning/image/clean.png" width="800" height="260">
 </p>
 after cleaning process,dummifying is coming
 ```
@@ -82,6 +82,7 @@ X.head()
 <p align="center">
   <img src="https://rajoul.github.io/Machine_Learning/image/dummify.png" width="800" height="300">
 </p>
+Now our model is ready,we can compute score,accuracy.
 ```
 def compute_score(clf, X, y):
     
@@ -108,7 +109,7 @@ y_pred=md.predire(model,X_test,y_test)
 y_pred
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="800" height="300">
+  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="700" height="220">
 </p>
 
 
