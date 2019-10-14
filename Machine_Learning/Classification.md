@@ -26,7 +26,7 @@ train = pd.read_csv("data/train.csv", sep=',')
 train.head()
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/head.png" width="800" height="280">
+  <img src="https://rajoul.github.io/Machine_Learning/image/head.png" width="860" height="220">
 </p>
 I clean my dataset from NAN value and replace undesired characters
 ```
@@ -58,7 +58,7 @@ prepro.replace_all_nan(train,nan)
 train.head()
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/clean.png" width="800" height="260">
+  <img src="https://rajoul.github.io/Machine_Learning/image/clean.png" width="900" height="220">
 </p>
 after cleaning process,dummifying is coming
 ```
@@ -109,7 +109,52 @@ y_pred=md.predire(model,X_test,y_test)
 y_pred
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="700" height="220">
+  <img src="https://rajoul.github.io/Machine_Learning/image/regression.png" width="700" height="190">
+</p>
+finally,we get score of our model,we can try an other algorithm looking for a best score and accuracy.
+# Random Forest:
+A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting
+```model_rf=RandomForestClassifier()
+score_rf=md.score(model_rf,X_train, X_test, y_train, y_test)
+print("score == ",score_rf)
+md.compute_score(model_rf, X, y)
+y_pred_rf=md.predire(model_rf,X_test,y_test)
+print("y_predict===",y_pred_rf)
+```
+<p align="center">
+  <img src="https://rajoul.github.io/Machine_Learning/image/random.png" width="700" height="190">
+</p>
+# Grid Search Random Forest
+Another way to choose which hyperparameters to adjust is by conducting an exhaustive grid search or randomized search
+```
+n_estimators = [int(x) for x in np.linspace(start = 200, stop = 1000, num = 10)]
+max_features = ['auto', 'sqrt']
+max_depth = [int(x) for x in np.linspace(100, 500, num = 11)]
+max_depth.append(None)
+# create random grid
+random_grid = {
+ 'n_estimators': n_estimators,
+ 'max_features': max_features,
+ 'max_depth': max_depth
+ }
+# Random search of parameters
+rfc_random = RandomizedSearchCV(estimator = model_rf, param_distributions = random_grid, n_iter = 100, cv = 3, verbose=2, random_state=42, n_jobs = -1)
+rfc_random.fit(X_train, y_train)
+# print results
+print(rfc_random.best_params_)
+```
+<p align="center">
+  <img src="https://rajoul.github.io/Machine_Learning/image/parameter.png" width="680" height="40">
+</p>
+it give us the best parameters to estimate a best score
+```
+rfc_grid = RandomForestRegressor(n_estimators=644,max_features='auto',max_depth=180)
+score_rf_grid=md.score(rfc_grid,X_train, X_test, y_train, y_test)
+print("score ==",score_rf_grid)
+md.compute_score(model_rf, X, y)
+```
+<p align="center">
+  <img src="https://rajoul.github.io/Machine_Learning/image/grid.png" width="680" height="80">
 </p>
 
 
