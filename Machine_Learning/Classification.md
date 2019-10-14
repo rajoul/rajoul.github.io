@@ -156,9 +156,9 @@ md.compute_score(model_rf, X, y)
 <p align="center">
   <img src="https://rajoul.github.io/Machine_Learning/image/grid.png" width="680" height="80">
 </p>
-thanks for Reading.........
+I hope you get new information about classification models.........
 * for more information about [Regression](https://rajoul.github.io/Machine_Learning/Regression)
-thanks for supporting me on [Twitter](https://twitter.com/rajoul6).
+* thanks for supporting me on [Twitter](https://twitter.com/rajoul6).
 
 
 
