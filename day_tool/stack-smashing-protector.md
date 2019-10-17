@@ -5,7 +5,7 @@ général utilisé pour réécrire EIP, qui se trouve être juste derrière l’
 la valeur secrète serait également réécrite. Une vérification de cette valeur est effectuée avant de sortir de la fonction, et si
 elle a été modifiée, alors le programme s’arrête brutalement et nous jette des tomates à la figure.
 <p align="center">
-  <img src="https://rajoul.github.io/day_tool/image/canary.png" width="860" height="220">
+  <img src="https://rajoul.github.io/day_tool/image/canary.png" width="860" height="290">
 </p>
 donc on est obligé de faire un brute force pour trouver la valeur de canary qui est de 8 octets pour un fichier de 32bits,16 octets 
 pour 64bits.mais noter bien que à chaque nouvelle connexion on a un nouveau canary.
