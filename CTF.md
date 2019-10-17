@@ -3,9 +3,10 @@ layout: page
 title: CTF
 permalink: /ctf/
 ---
-
-I've been playing CTF from january 2019
-
+I've been playing CTF from january 2019.
+This my account on:
+* [root-me](https://www.root-me.org/rajoul?lang=en#1f5e6f90b80d55215ffab32708b867f4)
+*  [Cybertalent](https://cybertalents.com/worldrank)
 ## Writeups
 
 I maintain notes for all the new things I learn in CTF or while `"PWNING"` a Vulnerable machines.
