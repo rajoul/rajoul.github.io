@@ -11,7 +11,7 @@ This my account on:
 I maintain notes for all the new things I learn in CTF or while `"PWNING"` a Vulnerable machines.
 Source for all of my notes can be found [here](http://github.com/).
 * [Cybertalent](https://github.com/rajoul/cybertalent)
-* [Root-me](https://github.com/rajoul/root-me)
+* [Root-me](https://rajoul.github.io/root-me)
 * [Cryptopals](https://github.com/rajoul/cryptopals)
 * [OverThewire -> Natas](https://rajoul.github.io/natas)
 * [OverThewire -> Bandit](https://github.com/rajoul/bandit/blob/master/README.md)
