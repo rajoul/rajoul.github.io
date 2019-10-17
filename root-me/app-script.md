@@ -1,4 +1,2 @@
 # ch1
-<p align="center">
-  <img src="https://rajoul.github.io/root-me/image/ch1.cast" width="860" height="220">
-</p>
+[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/oyzqwAWqOcxBYqLRoBQFNZu7Y)
