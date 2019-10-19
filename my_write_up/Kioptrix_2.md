@@ -92,7 +92,8 @@ mon exploit est bien recu,donc je le compile avec gcc,aprés je l'éxécute.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/get_root_15.png" width="860" height="170">
 </p>
-une immense satisfaction,j'ai réussi à gagné l'accés administrateur.donc je peux aler récupérer le **FLAG**
+une immense satisfaction,j'ai réussi à gagné l'accés administrateur.donc je peux aler récupérer le **FLAG**.
+
 une fois on a gagné l'accés administrateur,je peux supprimer mes traces, modifier dans le fichier **/etc/shadow** en ajoutant de nouveaux administrateurs,supprimer des comptes et aussi stopper l'éxécution des services....Donc, j'ai le pouvoir absolu de faire ce que je veux.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="220">
