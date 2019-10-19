@@ -56,7 +56,7 @@ Sur la base de la connexion réussie, une page d’utilitaire Ping s’est affic
 </p>
 Alors,on va essayer de concatener la commande ping avec une autre commande ,afin de savoir si notre champs nous permet d'envoyer un reverse shell.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/cat_etc_passwd_9.png" width="860" height="220">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/cat_etc_passwd_9.png" width="860" height="280">
 </p>
 Succès,on a réussi à lire le fichier /etc/passwd.donc on va essayer d'anvoyer un reverse shell vers ma machine avec la commande nc 
 <p align="center">
