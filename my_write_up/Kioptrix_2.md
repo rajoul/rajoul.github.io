@@ -15,7 +15,7 @@ Les paramètres utilisés pour Nmap effectueront une analyse sur les ports ouver
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/real_scan.png" width="860" height="450">
 </p>
 En examinant les résultats de l'analyse Nmap, les ports TCP 80 et 443 utilisent Apache Server version 2.0.52. De plus, le port TCP 22 utilise Open SSH version 3.9p1, le port TCP 631 utilise CUPS 1.1 et le port TCP 3306 utilise MySQL (version inconnue pour le moment).
-##### 2-Scan de vulnérabilities
+##### 2-Scan-de-vulnérabilities
 Pour examiner de plus près les ports TCP 80, j'ai lancé Nitko avec les paramètres d'hôte, de port et de fichier de sortie.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/nikto.png" width="860" height="450">
@@ -40,7 +40,7 @@ enfin récupèrer les comptes utilisateur.**>sqlmap -r burp.txt -D webapp -T use
 </p>
 On a réussi à trouver deux comptes utilisateurs et leurs mots de pass.
 ##### 3-Exploitation
-###### 3.1 SQL injection:
+###### 3.1-SQL-injection:
 Une fois la collecte d’informations initiale terminée, j’ai décidé d’explorer le serveur Apache en me connectant au site Web via un navigateur Web.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/page_accueil.png" width="860" height="170">
