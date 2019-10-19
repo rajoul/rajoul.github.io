@@ -24,6 +24,6 @@ il ne semble pas y avoir d’exploitation pour un shell distant.mais Nikto nous 
 QUERY STRING.donc On va essayer avec SQLMAP pour trouver la base de donnée.
 tout d'abord on intercepte la requête via burp suite.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/burp_suite.png" width="860" height="450">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/burp_suite_3.png" width="860" height="220">
 </p>
-ensuite on récupère toutes les informations sur la requête et les enregistrés dans un fichier burp.txt.et enfin lancer sqlmap.######{>sqlmap -r burp.txt --dbs}
+ensuite on récupère toutes les informations sur la requête et les enregistrés dans un fichier burp.txt.et enfin lancer sqlmap.######>sqlmap -r burp.txt --dbs
