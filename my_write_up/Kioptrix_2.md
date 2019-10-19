@@ -12,7 +12,7 @@ Avec l’adresse IP et le masque de sous-réseau du système Kali obtenus,je peu
 </p>
 Les paramètres utilisés pour Nmap effectueront une analyse sur les ports ouverts,les services qui s'éxécutent sur chaque port et leur versions,tout ces informations sont stockés dans un fichier scan.nmap
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/real_scan.png" width="860" height="450">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/real_scan.png" width="860" height="480">
 </p>
 En examinant les résultats de l'analyse Nmap, les ports TCP 80 et 443 utilisent Apache Server version 2.0.52. De plus, le port TCP 22 utilise Open SSH version 3.9p1, le port TCP 631 utilise CUPS 1.1 et le port TCP 3306 utilise MySQL (version inconnue pour le moment).
 ##### 2-Scan-de-vulnérabilities
@@ -40,7 +40,7 @@ enfin récupèrer les comptes utilisateur.**>sqlmap -r burp.txt -D webapp -T use
 </p>
 On a réussi à trouver deux comptes utilisateurs et leurs mots de pass.
 ##### 3-Exploitation
-###### 3.1-SQL-injection:
+###### 3.1-SQL injection:
 Une fois la collecte d’informations initiale terminée, j’ai décidé d’explorer le serveur Apache en me connectant au site Web via un navigateur Web.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/page_accueil.png" width="860" height="170">
@@ -78,7 +78,7 @@ continuant avec le shell inversé, je devais rassembler des informations supplé
 Génial! Maintenant que nous savons que le système d'exploitation était CentOS version 2.6.9–55.\\
 Ensuite, j'ai examiné la base de données searchsploit installée sur le système Kali local pour déterminer s'il existait une vulnérabilité de CentOS de la version 2.6.9–55 du noyau.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/metasploit.png" width="860" height="280">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/metasploit.png" width="860" height="320">
 </p>
 alors on a trouvé un script en C qui exploite cette vulnérabilité de centos.alors je copier le script dans mon répertoire de travail pour l'éxécuter sur la machine cible.
 <p align="center">
@@ -86,7 +86,7 @@ alors on a trouvé un script en C qui exploite cette vulnérabilité de centos.a
 </p>
 je lance mon serveur sur mon espace de travail pour transmettre le fichier vers la machine cible
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/upload_exploit_14.png" width="860" height="170">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/upload_exploit_14.png" width="860" height="220">
 </p>
 mon exploit est bien recu,donc je le compile avec gcc,apres je l'éxécute.
 <p align="center">
