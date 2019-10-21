@@ -11,9 +11,9 @@ I recently started trying machines on [HackTheBox](https://www.hackthebox.eu/)
 Following is the list of all the boxes that I was able to root.
 
 ## Index
-* writeup
-* swagshop
-* netmon
+* Wall
+* Writeup
+* Swagshop
+* Netmon
 * Haystack
-
-
+<img src="https://www.hackthebox.eu/badge/image/94847" alt="Hack The Box">
