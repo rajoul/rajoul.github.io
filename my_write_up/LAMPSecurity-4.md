@@ -1,6 +1,6 @@
 # LAMPSecurity 4
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/accueil.png" width="760" height="260">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/accueil.png" width="800" height="260">
 </p>
 ##### 1-reconnaissance
 Let’s start with scanning my local private network to get the adress IP of my target.
@@ -45,15 +45,15 @@ Finally we get all information about user table that contain usernames and passw
 Great,we have usernames with password, the next step is to login with these account and see if there is an account with
 more priviledge.Let's start with dstevens : **ssh dstevens@10.0.4.12**
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/id.png" width="800" height="180">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/id.png" width="800" height="100">
 </p>
 dstevens belong to admins group, let's check the members od this group
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/group.png" width="800" height="180">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/group.png" width="800" height="100">
 </p>
 Also achen belong to admin  group,we can discover the privilidge of this account.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/sudol.png" width="800" height="180">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/sudol.png" width="800" height="100">
 </p>
 **Important** the dstevens user has the privilege to run all the commands with sudo.
 So, I can run bash shell like an admin.
