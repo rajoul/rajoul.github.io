@@ -1,6 +1,6 @@
 # LAMPSecurity 4
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/accueil.png" width="800" height="260">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/accueil.png" width="840" height="260">
 </p>
 ##### 1-reconnaissance
 Let’s start with scanning my local private network to get the adress IP of my target.
@@ -49,7 +49,7 @@ more priviledge.Let's start with dstevens : **ssh dstevens@10.0.4.12**
 </p>
 dstevens belong to admins group, let's check the members od this group
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/group.png" width="800" height="100">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/group.png" width="800" height="80">
 </p>
 Also achen belong to admin  group,we can discover the privilidge of this account.
 <p align="center">
