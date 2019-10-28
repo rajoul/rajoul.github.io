@@ -63,18 +63,18 @@ The file dispaly 5 different system'users,first i tried to brute force every pas
 I retrieved the amy'password, I can login with ssh.So I search for any other password of any other users with this commande.
 **grep -R password . 2>/dev/null**
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/tomboy.png" width="800" height="300">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/tomboy.png" width="800" height="180">
 </p> 
 under the patrick directory,there is a directory named tomboy that cantain root password.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_pass.png" width="800" height="300">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_pass.png" width="800" height="200">
 </p> 
 An extreme satisfaction,we have a root access to my target machine.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_access2.png" width="800" height="300">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_access2.png" width="800" height="320">
 </p> 
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="220">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="180">
 </p>
 support me on [twitter](https://twitter.com/rajoul6)
 
