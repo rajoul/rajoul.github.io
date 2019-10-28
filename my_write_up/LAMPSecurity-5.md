@@ -71,7 +71,7 @@ under the patrick directory,there is a directory named tomboy that cantain root 
 </p> 
 An extreme satisfaction,we have a root access to my target machine.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_access2.png" width="800" height="320">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_access2.png" width="800" height="220">
 </p> 
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="120">
