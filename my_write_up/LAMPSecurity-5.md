@@ -58,7 +58,7 @@ The file dispaly 5 different system'users,first i tried to brute force every pas
 5 users(amy,patrick,....)
 **hydra -L users -P /usr/share/wordlists/rockyou.txt 10.0.4.13 ssh -V**
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/amy_ssh.png" width="800" height="180">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/amy_ssh.png" width="800" height="160">
 </p> 
 I retrieved the amy'password, I can login with ssh.So I search for any other password of any other users with this commande.
 **grep -R password . 2>/dev/null**
@@ -74,7 +74,7 @@ An extreme satisfaction,we have a root access to my target machine.
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_access2.png" width="800" height="320">
 </p> 
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="180">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="120">
 </p>
 support me on [twitter](https://twitter.com/rajoul6)
 
