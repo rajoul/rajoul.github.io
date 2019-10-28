@@ -28,7 +28,7 @@ the first thing I do is brute forcing the credentials with Hydra'tool.
 Great, I get the user(admin) and password(shannon).After we authenticate with them and access the admin priviledge zone, there is
 a possibility to add a new php page,that give me the power to upload a reverse shell successfully.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/5.png" width="800" height="320">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/5.png" width="800" height="350">
 </p>
 After I saved the page, I run it and the shell is sended bask to my listener.
 <p align="center">
