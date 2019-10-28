@@ -58,12 +58,12 @@ The file dispaly 5 different system'users,first i tried to brute force every pas
 5 users(amy,patrick,....)
 **hydra -L users -P /usr/share/wordlists/rockyou.txt 10.0.4.13 ssh -V**
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/amy_ssh.png" width="800" height="160">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/amy_ssh.png" width="800" height="130">
 </p> 
 I retrieved the amy'password, I can login with ssh.So I search for any other password of any other users with this commande.
 **grep -R password . 2>/dev/null**
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/tomboy.png" width="800" height="160">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/tomboy.png" width="800" height="130">
 </p> 
 under the patrick directory,there is a directory named tomboy that cantain root password.
 <p align="center">
