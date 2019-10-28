@@ -11,7 +11,7 @@ the adress of my target => 10.0.4.13
 Our next step is to scan our target with NMAP.
 **nmap -sC -sV -o scan.nmap 10.0.4.13**
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/scan.png" width="800" height="400">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/scan.png" width="800" height="500">
 </p>
 there are three port open: 80=> server APACHE, 25 => SMTP, 22 => SSH, 3306 => mysql, 139,445 => SAMBA et 110 =>pop3
 Let's check the server Apache on port 80.
@@ -19,5 +19,5 @@ I get the root access with two different ways :
 ##### first way
 At the the Blog menu there is a admin panel authenticity.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/scan.png" width="800" height="260">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/admin_panel.png" width="800" height="260">
 </p>
