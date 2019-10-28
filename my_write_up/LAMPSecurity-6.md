@@ -9,7 +9,6 @@ after log in inject an image that contain a reverse shell: we get Apache user
 local privesc: linux kernel 8478.sh 
 ```
 **Noting new or learned from this machine, it is sooo classic.**
-these-are-things-boring-enamel-pin_300x.png
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-6/these-are-things-boring-enamel-pin_300x.png" width="600" height="240">
 </p>
