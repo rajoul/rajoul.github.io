@@ -66,7 +66,7 @@ hydra -L users -P /usr/share/wordlists/rockyou.txt 10.0.4.13 ssh -V
 </p> 
 I retrieved the amy'password, I can login with ssh.So I search for any other password of any other users with this commande.
 ```
-grep -Ri password . 2>/dev/null
+grep -Ri password /home/* 2>/dev/null
 ```
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/tomboy.png" width="800" height="130">
