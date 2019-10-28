@@ -58,7 +58,7 @@ Also achen belong to admin  group,we can discover the privilidge of this account
 **Important** the dstevens user has the privilege to run all the commands with sudo.
 So, I can run bash shell like an admin.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/root_access.png" width="800" height="180">
+  <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-4/root_access.png" width="800" height="220">
 </p>
 Congratulation, We get the root acces in the target machine.
 <p align="center">
