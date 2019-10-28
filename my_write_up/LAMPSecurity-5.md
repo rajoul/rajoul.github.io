@@ -80,7 +80,7 @@ An extreme satisfaction,we have a root access to my target machine.
   <img src="https://rajoul.github.io/my_write_up/image/LAMPSecurity-5/root_access2.png" width="800" height="180">
 </p> 
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="120">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="170">
 </p>
 support me on [twitter](https://twitter.com/rajoul6)
 
