@@ -64,7 +64,7 @@ wpscan discover two passwords: jerry=>adipiscing, tom => parturient. we authenti
 </p>
 we access to the Jerry's dashboard,he doesn't have enough piviledge to upload images and files.But there is the second flag, that tell us to look somewhere else. (ssh login).
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/9.png" width="800" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/9.png">
 </p>
 We check the all ports for any port open.
 ```
