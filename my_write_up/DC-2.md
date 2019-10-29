@@ -12,7 +12,7 @@ Our next step is to scan our target with NMAP.
 nmap -sC -sV -o scan.nmap 10.0.4.16
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/scan.png" width="650" height="400">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/scan.png" width="650" height="450">
 </p>
 there is one port open: 80=> server APACHE.
 Let's check the server Apache on port 80.
