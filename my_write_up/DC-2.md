@@ -12,7 +12,7 @@ Our next step is to scan our target with NMAP.
 nmap -sC -sV -o scan.nmap 10.0.4.16
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/scan.png" width="700" height="500">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/scan.png" width="650" height="500">
 </p>
 there is one port open: 80=> server APACHE.
 Let's check the server Apache on port 80.
@@ -56,7 +56,7 @@ With wpscan,we can also perform brute force on users and passwords,the file user
 ./wpscan --url http://dc-2/ --usernames users -w wordlist.txt
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/7.png" width="740" height="190">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/7.png" width="740" height="150">
 </p>
 wpscan discover two passwords: jerry=>adipiscing, tom => parturient. we authenticate first with tom Credentials but there is nothing inside.
 <p align="center">
