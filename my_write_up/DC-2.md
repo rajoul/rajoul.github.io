@@ -60,7 +60,7 @@ With wpscan,we can also perform brute force on users and passwords,the file user
 </p>
 wpscan discover two passwords: jerry=>adipiscing, tom => parturient. we authenticate first with tom Credentials but there is nothing inside.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/8.png" width="600" height="200">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/8.png" width="500" height="200">
 </p>
 we access to the Jerry's dashboard,he doesn't have enough piviledge to upload images and files.But there is the second flag, that tell us to look somewhere else. (ssh login).
 <p align="center">
