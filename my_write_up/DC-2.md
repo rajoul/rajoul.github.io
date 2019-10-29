@@ -62,14 +62,48 @@ wpscan discover two passwords: jerry=>adipiscing, tom => parturient. we authenti
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-2/8.png" width="740" height="240">
 </p>
-
-
-
-
-
-
-
-
+we access to the Jerry's dashboard,he doesn't have enough piviledge to upload images and files.But there is the second flag, that tell us to look somewhere else. (ssh login).
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/9.png" width="740" height="240">
+</p>
+We check the all ports for any port open.
+```
+nmap -p- 10.0.4.16
+```
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/10.png" width="740" height="240">
+</p>
+Great, there is a port 7744 open, let's login with ssh with tom user.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/11.png" width="740" height="240">
+</p>
+Successfuly logged in,but with restricted bash. We use vi to get the shell:
+```
+vi
+:set shell=/bin/bash
+:shell
+```
+Then,in order to execute any command as usually, we need to change the PATH variable.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/12.png" width="740" height="240">
+</p>
+Great, we can read the 3rd flag. What I understand from the flag text is to switch to jerry user
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/13.png" width="740" height="240">
+</p>
+the 4th flag tell us to look for tha last flag that probably located inside the root directory. We list git command that
+jerry can run as a root.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/14.png" width="740" height="240">
+</p>
+Finally we get root access.Then read the final flag
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/root_access.png" width="740" height="240">
+</p>
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="170">
+</p>
+support me on [twitter](https://twitter.com/rajoul6)
 
 
 
