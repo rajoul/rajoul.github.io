@@ -33,7 +33,7 @@ wordpress and exploit vulnerabilities of this one, with **wpscan tool**.
 ./wpscan.rb --url http://dc-2/ 
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/4.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/4.png" width="840" height="280">
 </p>
 the version of wordpress is 4.7.10 and there are 17 vulnerabilities. Let's enumerate users of the app.
 <p align="center">
@@ -49,7 +49,7 @@ Then, this is the commande to make the wordlist.txt.
 cewl --url http://dc-2/ -w wordlist.txt
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/cewl.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/cewl.png" width="740" height="160">
 </p>
 With wpscan,we can also perform brute force on users and passwords,the file users contain users:jerry,tom and admin,there is the syntax.
 ```
@@ -71,7 +71,7 @@ We check the all ports for any port open.
 nmap -p- 10.0.4.16
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/10.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/10.png" width="740" height="200">
 </p>
 Great, there is a port 7744 open, let's login with ssh with tom user.
 <p align="center">
@@ -94,7 +94,7 @@ Great, we can read the 3rd flag. What I understand from the flag text is to swit
 the 4th flag tell us to look for tha last flag that probably located inside the root directory. We list git command that
 jerry can run as a root.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/14.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/14.png" width="740" height="160">
 </p>
 Finally we get root access.Then read the final flag
 <p align="center">
