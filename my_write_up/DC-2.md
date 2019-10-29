@@ -35,3 +35,45 @@ wordpress and exploit vulnerabilities of this one, with **wpscan tool**.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-2/4.png" width="740" height="240">
 </p>
+the version of wordpress is 4.7.10 and there are 17 vulnerabilities. Let's enumerate users of the app.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/5.png" width="740" height="240">
+</p>
+There are three users: jerry,tom,admin. I tried to brute force the admin password with rockyou.txt wordlist but nothing useful.
+At the home page there is Flag menu,that tell us to make my own wordlist.txt with **cewl tool** 
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/6.png" width="740" height="240">
+</p>
+Then, this is the commande to make the wordlist.txt.
+```
+cewl --url http://dc-2/ -w wordlist.txt
+```
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/cewl.png" width="740" height="240">
+</p>
+With wpscan,we can also perform brute force on users and passwords,the file users contain users:jerry,tom and admin,there is the syntax.
+```
+./wpscan --url http://dc-2/ --usernames users -w wordlist.txt
+```
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/7.png" width="740" height="240">
+</p>
+wpscan discover two passwords: jerry=>adipiscing, tom => parturient. we authenticate first with tom Credentials but there is nothing inside.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/8.png" width="740" height="240">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
