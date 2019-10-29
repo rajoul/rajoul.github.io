@@ -10,6 +10,7 @@ Usually I do writeups for any VM that I solve.
 Here's the list of all the VMs I've solved.
 
 # Machine
+* [DC-1](https://rajoul.github.io/my_write_up/DC-1)
 * [LAMPSecurity-6](https://rajoul.github.io/my_write_up/LAMPSecurity-6)
 * [LAMPSecurity-5](https://rajoul.github.io/my_write_up/LAMPSecurity-5)
 * [LAMPSecurity-4](https://rajoul.github.io/my_write_up/LAMPSecurity-4)
