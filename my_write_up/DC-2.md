@@ -101,7 +101,7 @@ Finally we get root access.Then read the final flag
   <img src="https://rajoul.github.io/my_write_up/image/DC-2/root_access.png" width="740" height="240">
 </p>
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/boom.gif" width="460" height="170">
+  <img src="https://rajoul.github.io/my_write_up/image/gif/dance.gif" width="460" height="170">
 </p>
 support me on [twitter](https://twitter.com/rajoul6)
 
