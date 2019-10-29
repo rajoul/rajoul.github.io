@@ -17,7 +17,7 @@ nmap -sC -sV -o scan.nmap 10.0.4.16
 there is one port open: 80=> server APACHE.
 Let's check the server Apache on port 80.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/1.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/1.png" width="660" height="280">
 </p>
 the page can't be uploaded,So I added the adress of the target machine to the file /etc/hosts with dc-2 hostname.
 <p align="center">
