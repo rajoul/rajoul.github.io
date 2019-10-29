@@ -56,15 +56,15 @@ With wpscan,we can also perform brute force on users and passwords,the file user
 ./wpscan --url http://dc-2/ --usernames users -w wordlist.txt
 ```
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/7.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/7.png" width="740" height="190">
 </p>
 wpscan discover two passwords: jerry=>adipiscing, tom => parturient. we authenticate first with tom Credentials but there is nothing inside.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/8.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/8.png" width="600" height="200">
 </p>
 we access to the Jerry's dashboard,he doesn't have enough piviledge to upload images and files.But there is the second flag, that tell us to look somewhere else. (ssh login).
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/9.png" width="740" height="240">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/9.png" width="800" height="240">
 </p>
 We check the all ports for any port open.
 ```
@@ -94,7 +94,7 @@ Great, we can read the 3rd flag. What I understand from the flag text is to swit
 the 4th flag tell us to look for tha last flag that probably located inside the root directory. We list git command that
 jerry can run as a root.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/14.png" width="740" height="160">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/14.png" width="740" height="130">
 </p>
 Finally we get root access.Then read the final flag
 <p align="center">
