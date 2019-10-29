@@ -36,6 +36,9 @@ wordpress and exploit vulnerabilities of this one, with **wpscan tool**.
   <img src="https://rajoul.github.io/my_write_up/image/DC-2/4.png" width="840" height="280">
 </p>
 the version of wordpress is 4.7.10 and there are 17 vulnerabilities. Let's enumerate users of the app.
+```
+./wpscan.rb --url http://dc-2/ --enumerate
+```
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-2/5.png" width="740" height="240">
 </p>
@@ -46,7 +49,7 @@ At the home page there is Flag menu,that tell us to make my own wordlist.txt wit
 </p>
 Then, this is the commande to make the wordlist.txt.
 ```
-cewl --url http://dc-2/ -w wordlist.txt
+cewl http://dc-2/ -w wordlist.txt -m 5
 ```
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-2/cewl.png" width="740" height="160">
