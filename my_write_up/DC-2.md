@@ -94,7 +94,7 @@ Great, we can read the 3rd flag. What I understand from the flag text is to swit
 the 4th flag tell us to look for tha last flag that probably located inside the root directory. We list git command that
 jerry can run as a root.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/DC-2/14.png" width="740" height="130">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-2/14.png">
 </p>
 Finally we get root access.Then read the final flag
 <p align="center">
