@@ -83,7 +83,7 @@ tar -xvf exploit.tar
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-3/13.png" >
 </p>
-Boom, wa have a root access, so let's more to the root directory to read the flag.
+Boom, we have a root access, so let's more to the root directory to read the flag.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-3/root_access.png" >
 </p>
