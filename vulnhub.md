@@ -10,6 +10,7 @@ Usually I do writeups for any VM that I solve.
 Here's the list of all the VMs I've solved.
 
 # Machine
+* [DC-4](https://rajoul.github.io/my_write_up/DC-4)
 * [DC-3](https://rajoul.github.io/my_write_up/DC-3)
 * [DC-2](https://rajoul.github.io/my_write_up/DC-2)
 * [DC-1](https://rajoul.github.io/my_write_up/DC-1)
