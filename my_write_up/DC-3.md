@@ -50,13 +50,45 @@ Great, we get admin:snoopy, let's authenticate and see what inside the dashboard
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-3/7.png" >
 </p>
-
-
-
-
-
-
-
-
-
+Our next challenge is to find a way to upload a reverse shell. although we successfuly upload it in Beez template.
+extension -> templates -> index.php
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-3/8.png" >
+</p>
+Great, Our reverse shell is sent back to my listener.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-3/9.png" >
+</p>
+We are a ww-data user, first we start checking the version of the kernel if it is vulnerable.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-3/10.png" >
+</p>
+Searchsploit list all appropriate versions
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-3/11.png" >
+</p>
+there are 4 exploits, I tried every one of them , but only one that allow me the root access.
+I look for the exploit in github and I upload it to my target machine.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-3/12.png" >
+</p>
+Then I unzip it,
+```
+unzip 39772.zip
+cd 39772
+tar -xvf exploit.tar
+./compile.sh
+./doubleput
+```
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-3/13.png" >
+</p>
+Boom, wa have a root access, so let's more to the root directory to read the flag.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/DC-3/root_access.png" >
+</p>
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/gif/lhjar.gif" width="460" height="170">
+</p>
+support me on [twitter](https://twitter.com/rajoul6)
 
