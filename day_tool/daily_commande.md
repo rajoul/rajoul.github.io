@@ -54,6 +54,18 @@ how to bypass rbash shell : vi,echo os.system('/bin/bash') => https://sushant747
 ```
 this one is soo interesting: https://sushant747.gitbooks.io/total-oscp-guide/vim.html
 
-
+#### DC-3
+what I had learn from this machine is:
+```
+locate -r .nse$ | grep joomla : look nmap script appropriate to my need
+searchsploit linux kernel 4.4 : copier and paste sur google that may have repository in github.
+```
+#### DC-4
+what I had learn from this machine is:
+```
+requests.post(url).status_code
+brute force with burp suite with a wordlist <1000 words
+echo "user ALL=(ALL) ALL" | sudo tee /etc/sudoers : tee priviledge escalation
+```
 
 
