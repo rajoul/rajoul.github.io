@@ -19,7 +19,7 @@ Let's check the server Apache on port 80.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-3/1.png" >
 </p>
-We start enumerating directories,with **gobuster tool**.
+We start enumerating directories with **gobuster tool**.
 ```
 gobuster dir -u 10.0.4.17 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
@@ -34,7 +34,7 @@ We start identifying first the the CMS.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/DC-3/4.png" >
 </p>
-there is different way to gat credentials:
+there is different way to get credentials:
 1-brute force with hydra
 2-use sqlmap
 3-use nmap scripts
