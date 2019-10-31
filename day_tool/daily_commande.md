@@ -67,5 +67,8 @@ requests.post(url).status_code
 brute force with burp suite with a wordlist <1000 words
 echo "user ALL=(ALL) ALL" | sudo tee /etc/sudoers : tee priviledge escalation
 ```
-
-
+#### JIS-CTF01
+what I had learn from this machine is:
+```
+grep -rli 'technawi' --exclude-dir=/proc . 2>/dev/null
+```
