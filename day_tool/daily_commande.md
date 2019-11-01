@@ -85,7 +85,7 @@ ssh2john id_rsa file.txt :  to retrive the passphrase
 john --wordlist=/usr/share/wordlists/rockyou.txt file.txt : return the passphrase
 ssh -i id_rsa kay@10.0.4.22
 ```
-
+S00 interesting article in SMB enumeration:https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/
 
 
 
