@@ -34,7 +34,7 @@ gobuster dir -u http://10.0.4.23 -w /usr/share/dirbuster/wordlists/directory-2.3
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/Mr-robot-1/2.png" >
 </p>
-The prefix wp is all directories listed, Our Apache server is then running Wordpress.Let's check the authentication panel.
+all directories are prefixed with wp, Our Apache server is then running Wordpress.Let's check the authentication panel.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/Mr-robot-1/3.png" >
 </p>
