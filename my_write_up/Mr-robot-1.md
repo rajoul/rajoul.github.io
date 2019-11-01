@@ -99,9 +99,21 @@ find / -perm -u=s 2>/dev/null
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/Mr-robot-1/10.png" >
 </p>
-
-
-
+Great Nmap that is a tool for scanning port and enumerate services can be executed as a root.
+```
+nmap --interactive
+```
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/Mr-robot-1/11.png" >
+</p>
+great satisfaction, we have root access. we can then read the root key.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/Mr-robot-1/root_access.png" >
+</p>
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/gif/dance.gif" width="460" height="170">
+</p>
+support me on [twitter](https://twitter.com/rajoul6)
 
 
 
