@@ -10,6 +10,7 @@ Usually I do writeups for any VM that I solve.
 Here's the list of all the VMs I've solved.
 
 # Machine
+* [Basic-pentest-2](https://rajoul.github.io/my_write_up/Basic-pentest-2)
 * JIS-CTF01
 * [DC-4](https://rajoul.github.io/my_write_up/DC-4)
 * [DC-3](https://rajoul.github.io/my_write_up/DC-3)
@@ -22,6 +23,6 @@ Here's the list of all the VMs I've solved.
 * [Kioptrix_2](https://rajoul.github.io/my_write_up/Kioptrix_2)
 * [Kioptrix_3](https://rajoul.github.io/my_write_up/Kioptrix_3)
 * [Kioptrix_4](https://rajoul.github.io/my_write_up/Kioptrix_4)
-* [Basic_pentest](https://rajoul.github.io/my_write_up/basic_pentest_1)
+* [Basic-pentest-1](https://rajoul.github.io/my_write_up/basic_pentest_1)
 * [Null byte](https://rajoul.github.io/my_write_up/Null_Byte)
 * Brainpan
