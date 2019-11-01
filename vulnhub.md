@@ -10,8 +10,8 @@ Usually I do writeups for any VM that I solve.
 Here's the list of all the VMs I've solved.
 
 # Machine
-* [Basic-pentest-2](https://rajoul.github.io/my_write_up/DC-3)
-* [JIS-CTF01](https://rajoul.github.io/my_write_up/Basic2)
+* [Basic-pentest-2](https://rajoul.github.io/my_write_up/Basic-pentest-2)
+* JIS-CTF01
 * [DC-4](https://rajoul.github.io/my_write_up/DC-4)
 * [DC-3](https://rajoul.github.io/my_write_up/DC-3)
 * [DC-2](https://rajoul.github.io/my_write_up/DC-2)
