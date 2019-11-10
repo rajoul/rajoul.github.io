@@ -64,7 +64,7 @@ Then I upload the exploit to my target machine and compile it then execute it .
 </p>
 Great we have root access.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/kioptrix_2/dance.gif" width="460" height="170">
+  <img src="https://rajoul.github.io/my_write_up/image/gif/dance.gif" width="460" height="170">
 </p>
 support me on [twitter](https://twitter.com/rajoul6)
 
