@@ -23,6 +23,18 @@ Starting by checking the ftp service that allow anonymous user and retrieve the 
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/ftp.png" >
 </p>
+We start enumerate all ports if there is any other open ports.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/scan2.png" >
+</p>
+Let's exeminate the 9090 port.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/9090.png" >
+</p>
+Then the port 13337 with curl or wget command.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/13337.png" >
+</p>
 Next enumerating directories, with gobuster tool.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/1.png" >
@@ -51,11 +63,7 @@ listing the contain of /etc/passwd file we discover 3 system users.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/7.png" >
 </p>
-I tried to login with ssh on port 22, unfortunately it's not working. We start enumerate all ports if there is any other open ports.
-<p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/scan2.png" >
-</p>
-there is new open ports, let's enumerate service running on these ports.
+let's enumerate service running on these ports.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/8.png" >
 </p>
@@ -107,6 +115,10 @@ Next, we logged in and looking for priviledge of Rick user.So it can run any com
 Congratulation, We have a root acces and we can read the last Flag and get the 130 points.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/root_access.png" >
+</p>
+summurizing all flags founded in different ports.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/somme.png" >
 </p>
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/gif/salut.gif" width="460" height="170">
