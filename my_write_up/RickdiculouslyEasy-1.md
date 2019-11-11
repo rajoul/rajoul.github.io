@@ -35,6 +35,10 @@ Then the port 13337 with curl or wget command.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/13337.png" >
 </p>
+Then the port 60000 with netcat command.
+<p align="center">
+  <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/60000.png" >
+</p>
 Next enumerating directories, with gobuster tool.
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/RickdiculouslyEasy-1/1.png" >
