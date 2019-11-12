@@ -60,6 +60,8 @@ Great, togie user has the absolute priviledge to run every command as a root. Th
   <img src="https://rajoul.github.io/my_write_up/image/LazySysAdmin-1/root_access.png" >
 </p>
 This is a small simulation.
+[![asciicast](https://asciinema.org/a/HtesvSp2psagfVnmOt7HcE91t.svg)](https://asciinema.org/a/HtesvSp2psagfVnmOt7HcE91t)
+
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/gif/motivation.gif" width="460" height="170">
 </p>
