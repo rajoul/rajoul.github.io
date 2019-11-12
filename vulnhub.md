@@ -10,6 +10,7 @@ Usually I do writeups for any VM that I solve.
 Here's the list of all the VMs I've solved.
 
 # Machine
+* [LazySysAdmin-1](https://rajoul.github.io/my_write_up/LazySysAdmin-1)
 * [RickdiculouslyEasy-1](https://rajoul.github.io/my_write_up/RickdiculouslyEasy-1)
 * [Troll-1](https://rajoul.github.io/my_write_up/Troll-1)
 * [Mr-robot-1](https://rajoul.github.io/my_write_up/Mr-robot-1)
