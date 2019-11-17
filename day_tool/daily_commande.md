@@ -95,6 +95,9 @@ the uniq thing that can be changed is error message contained in hydra syntax. :
 install file manager in wordpress if you have admin access (it will contain the shell)
 nmap --interactive => !sh : root access.
 ```
+#### Stapler 
+get in as john user and add a plugin (upload shell.php) 
+=> https://10.0.4.32:13780/blogblog/wp-content/uploads: to see the upload file.
 
 
 
