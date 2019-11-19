@@ -7,8 +7,8 @@ program random.So the Buffer overflow attack is soo hard for an attacker to be e
 in order to enable od disable ASLR, the file /proc/sys/kernel/randomize_va_space contain kernel.randomize_va_space that take:
 - 0 if disabled
 - 1 id enabled
-- 2 = Full Randomization
-Started by finding if the ASLR is enabled or disabled.
+- 2 Full Randomization
+- Started by finding if the ASLR is enabled or disabled.
 <p align="center">
   <img src="https://rajoul.github.io/day_tool/image/image1.png">
 </p>
