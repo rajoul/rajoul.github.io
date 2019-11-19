@@ -7,8 +7,8 @@ program random.So the Buffer overflow attack is soo hard for an attacker to be e
 in order to enable od disable ASLR, the file /proc/sys/kernel/randomize_va_space contain kernel.randomize_va_space that take:
 - 0 if disabled
 - 1 id enabled
-- 2 Full Randomization
-- Started by finding if the ASLR is enabled or disabled.
+- 2 Full Randomization </br>
+Started by finding if the ASLR is enabled or disabled.
 <p align="center">
   <img src="https://rajoul.github.io/day_tool/image/image1.png">
 </p>
@@ -21,8 +21,8 @@ then I disabled ASLR memory space will not be random and we will see the same sp
 <p align="center">
   <img src="https://rajoul.github.io/day_tool/image/image3.png">
 </p>
-Running the same ldd command we see now the modules use the same address space for each execution.
-All what is mentionned here is about library. but in executable files there is a little difference. In this case the gcc has an option to enable the ASLR.
+Running the same ldd command we see now the modules use the same address space for each execution.</br>
+All what is mentionned here is about library. but in executable files there is a little difference. In this case the gcc has an option to enable the ASLR.</br>
 this a file that return the adress memory of the application.
 ```
 #include <stdlib.h>
