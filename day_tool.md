@@ -9,3 +9,4 @@ title: Day's tool
 * [rapport](https://drive.google.com/open?id=0B6KJL7gQe8g-VzJxOFFWWFhydy0wb3M0UUU3M3BOVjZuUFFj)
 * https://gtfobins.github.io/
 * [scapy](https://scapy.readthedocs.io/en/latest/usage.html)
+* [Address Space Layout Randomization (ASLR)](https://rajoul.github.io/day_tool/Address-Space-Layout-Randomization)
