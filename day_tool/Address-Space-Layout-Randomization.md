@@ -16,13 +16,13 @@ Started by finding if the ASLR is enabled or disabled.
  <p align="center">
   <img src="https://rajoul.github.io/day_tool/image/image2.png">
 </p>
-This allows us to see that the module use a different or random address space each time when ASLR is enabled
+This allows us to see that the module use a different or random address space each time when ASLR is enabled.<br>
 then I disabled ASLR memory space will not be random and we will see the same space used each time.
 <p align="center">
   <img src="https://rajoul.github.io/day_tool/image/image3.png">
 </p>
-Running the same ldd command we see now the modules use the same address space for each execution.
-All what is mentionned here is about library. but in executable files there is a little difference. In this case the gcc has an option to enable the ASLR.
+Running the same ldd command we see now the modules use the same address space for each execution.<br>
+All what is mentionned here is about library. but in executable files there is a little difference. In this case the gcc has an option to enable the ASLR.<br>
 this a file that return the adress memory of the application.
 ```
 #include <stdlib.h>
