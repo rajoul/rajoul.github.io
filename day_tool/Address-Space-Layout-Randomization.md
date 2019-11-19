@@ -5,6 +5,53 @@ program random.So the Buffer overflow attack is soo hard for an attacker to be e
 #### 1-Sysctl
 /usr/sbin/sysctl is a command used to display kernel parameters located in /proc/sys/
 in order to enable od disable ASLR, the file /proc/sys/kernel/randomize_va_space contain kernel.randomize_va_space that take:
-<br>0 if disabled </br>
-<br> 1 id enabled </br>
-<br>2 = Full Randomization </br>
+0 if disabled
+1 id enabled
+2 = Full Randomization
+Started by finding if the ASLR is enabled or disabled.
+<p align="center">
+  <img src="https://rajoul.github.io/day_tool/image/image1.png">
+</p>
+ ldd command is used to show the library depends to a program. in our example the adress of each library change every time I run it.
+ <p align="center">
+  <img src="https://rajoul.github.io/day_tool/image/image2.png">
+</p>
+then I disabled ASLR memory space will not be random and we will see the same space used each time.
+<p align="center">
+  <img src="https://rajoul.github.io/day_tool/image/image3.png">
+</p>
+All what is mentionned here is about library. but in executable files there is a little difference. In this case the gcc has an option to enable the ASLR.
+this a file that return the adress memory of the application.
+```
+#include <stdlib.h>
+#include <stdio.h>
+
+void* getAddr () {
+ return __builtin_return_address(0)-0x5;
+};
+
+int main(int argc, char** argv){
+ printf("Code located at: %p\n",getAddr());
+ return 0;
+}
+```
+```
+$ sudo sysctl -w kernel.randomize_va_space=2
+kernel.randomize_va_space = 2
+$ gcc pie.c -o getAddr
+```
+the result :
+```
+$ ./getAddr 
+Code located at: 0x400548
+$ ./getAddr 
+Code located at: 0x400548
+```
+the adress memery doesn't change. so gcc make ASLR enabled by adding an option -fPIE -pie
+```
+$ gcc -fPIE -pie pie.c -o getAddr
+$ ./getAddr
+Code located at: 0x556d528a5772
+$ ./getAddr
+Code located at: 0x5638beaa9772
+```
