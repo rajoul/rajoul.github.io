@@ -59,7 +59,7 @@ Great we have a root access. We can read the secong flag.
 </p>
 This is my notebook page.
 <p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/West_Wild/West_wild.jpg">
+  <img src="https://rajoul.github.io/my_write_up/image/West_Wild/West_wild.jpg" width="500" height="400">
 </p>
 <p align="center">
   <img src="https://rajoul.github.io/my_write_up/image/gif/lhjar.gif" width="460" height="170">
