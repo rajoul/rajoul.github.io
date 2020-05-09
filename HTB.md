@@ -16,5 +16,8 @@ Following is the list of all the boxes that I was able to root.
 * Swagshop
 * Netmon
 * Haystack
+* Openadmin
+* Mango
+* Traceback
 
 <img src="https://www.hackthebox.eu/badge/image/94847" alt="Hack The Box">
