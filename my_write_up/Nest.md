@@ -9,10 +9,10 @@ PORT    STATE SERVICE       VERSION
 445/tcp open  microsoft-ds?
 ```
 ### Enumerate
-nmap --script smb-vuln* -p 445 10.10.10.178
-nmap --script smb-* -p 445 10.10.10.178
-enum4linux -L 10.10.10.178
-smbmap -H 10.10.10.178
+- nmap --script smb-vuln* -p 445 10.10.10.178
+- nmap --script smb-* -p 445 10.10.10.178
+- enum4linux -L 10.10.10.178
+- smbmap -H 10.10.10.178
 
 ```
 smbclient -L /10.10.10.178
