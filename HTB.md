@@ -11,6 +11,7 @@ I recently started trying machines on [HackTheBox](https://www.hackthebox.eu/)
 Following is the list of all the boxes that I was able to root.
 
 ## Index
+* [Nest](https://rajoul.github.io/my_write_up/Nest)
 * Wall
 * Writeup
 * Swagshop
