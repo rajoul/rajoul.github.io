@@ -35,7 +35,7 @@ smbget -Rr smb://10.10.10.178/Secure$/IT/Carl -U TempUser
 smbclient //10.10.10.178/Secure$/IT/Carl -U TempUser
 smb> allinfo file_name
 ```
--Dnspy
+- Dnspy
 dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
 We use it to debug the file Hqkldap.exe .
 
