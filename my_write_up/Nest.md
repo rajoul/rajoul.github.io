@@ -28,3 +28,15 @@ Enter WORKGROUP\root's password:
         Secure$         Disk      
         Users           Disk      
 ```
+- smbget 
+```
+smbget -Rr smb://10.10.10.178/Data/ -U TempUser
+smbget -Rr smb://10.10.10.178/Secure$/IT/Carl -U TempUser
+smbclient //10.10.10.178/Secure$/IT/Carl -U TempUser
+smb> allinfo file_name
+```
+-Dnspy
+dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+We use it to debug the file Hqkldap.exe .
+
+- compile and execute a VB file with online .NET complier
