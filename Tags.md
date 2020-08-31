@@ -1,6 +1,5 @@
-# waiting for free time
-
-<p align="center">
-  <img src="https://rajoul.github.io/my_write_up/image/gif/scan_for_vuln.gif" >
-</p>
+## Tags
+* [Vim](https://rajoul.github.io/my_write_up/vi.md)
+* [Msfvenom](https://rajoul.github.io/my_write_up/msfvenom.md)
+* [Burp suite](https://rajoul.github.io/my_write_up/burp.md)
 support me on [twitter](https://twitter.com/rajoul6)
